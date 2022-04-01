@@ -1,0 +1,24 @@
+.header-text {
+text-align: center;
+}
+
+.green-background {
+    background-color: green;
+    color: white;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+li:first-child {
+    color: aqua;
+}
+
+.h2-white {
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
