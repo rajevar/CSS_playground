@@ -1,6 +1,16 @@
-header {
+header, #footer {
     background-color: purple;
 }
-.header-text {
+.header-text,#footer {
     color: white;
+    text-align: center;
+}
+.article-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article-date {
+    font-style: italic;
+}
+.article-author, .article-author {
+    color: grey;
 }

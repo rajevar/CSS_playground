@@ -5,3 +5,13 @@ rem -> uses 'root' as the base
  root is the setting of the browser, which is usally 16px.
 em -> uses parent as the base.
  if font-size of child-div is 1em, it inherits the size of the parent-div.
+
+ 
+-- btn_comp.css --
+.btn.custom {
+    /* linear-gradient(direction, color-from, color-to) */
+    background: linear-gradient(to right, hsl(271, 70%, 40%), hsl(200, 100%, 30%) );
+    border-color: black;
+    /*  border-shadow: x-offset, y-offset, spread-out, blur-out, color */
+    box-shadow: 0 0 5px 0 black;
+}
