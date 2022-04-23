@@ -1,4 +1,4 @@
-# CSS_playground
+# CSS Playground
 
 Following along WEbDevSimplified CSS tutorial and trying out few things on my own..
 Includes
