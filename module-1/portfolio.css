@@ -1,0 +1,86 @@
+
+   
+body {
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.5; /* specify word spread-out.. */
+  }
+
+.header, .footer {
+    background-color: #069;
+    color: white;
+    text-align: center;
+    padding: 1.5rem; /* could use em here. Used padding for space around the text and to make the text look vertically centered. */
+  }
+  .footer {
+      margin: 5px;
+      padding: 1em;
+  }
+  
+  .header-title {
+    margin: 0;
+  }
+
+  .section {
+    padding: 1rem 2rem;
+  }
+  
+  .section-accent {
+    background-color: #069;
+    color: white;
+  }
+  
+  .section-content {
+    list-style: none;
+    padding-left: 1rem; /* overwriting existing ul padding-left, which is 40px */
+  }
+  
+  .skills-section {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  .project-section {
+    color: #777;
+  }
+  
+  .project-list-item {
+    margin-bottom: 1rem;
+  }
+  
+  .project-list-item:last-child {
+    margin: 0;
+  }
+  
+  .contact-section {
+    margin: 1rem 0;
+  }
+
+  .input {
+      border-radius: .2em;
+      border: 1px solid rgb(189, 172, 172);
+      outline: none;
+  }
+  .input:focus {
+    border-color: #069;
+    box-shadow: 0 0 5px 0 #069;
+  }
+
+  .input-no-resize {
+      resize: none;
+  }
+
+  .btn {
+    background-color: hsl(200, 100%, 30%);
+    border: 1px solid hsl(200, 100%, 10%);
+    border-radius: .3em;
+    cursor: pointer;
+    padding: .5em 1em;
+    outline: none;
+    color: white;
+  }
+
+  .btn:focus, .btn:hover {
+      box-shadow: hsl(200, 100%, 10%);
+      background-color: hsl(200, 100%, 20%);
+  }

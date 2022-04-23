@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    background-color: aliceblue;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.item {
+    border: 1px solid rgb(229, 13, 13);
+    background-color: gray;
+    color: yellow;
+    width: 75px;
+    margin: 10px;
+}
+
+.item1 {
+    height: 50px;
+}
+
+.item2 {
+    height: 100px;
+}
+
+.item3 {
+    height: 150px;
+}

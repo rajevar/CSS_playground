@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.5;
+    /* specify word spread-out.. */
+}
+
+.header,
+.footer {
+    background-color: #069;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+}
+
+.header-title {
+    margin: 0;
+    /* getting rid of default h1 margin */
+}
+
+.section {
+    padding: 1em 2em;
+}
+
+.section-content {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.section-accent {
+    background-color: #069;
+    color: white;
+}
+
+.skills-section {
+    font-style: italic;
+}
+
+
+.input-no-resize {
+    resize: none;
+}
+
+.section .section-content .btn {
+    border-radius: .3em;
+    cursor: pointer;
+    /*  adding specificity for btn */
+}
+
+.btn {
+    background-color: hsl(200, 100%, 30%);
+    border: 1px solid hsl(200, 100%, 10%);
+    border-radius: .3em;
+    padding: .5em 1em;
+    outline: none;
+    color: white;
+}
+
+.input {
+    border-radius: .2em;
+    border: 1px solid rgb(189, 172, 172);
+    outline: none;
+}
