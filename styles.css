@@ -1,9 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 header {
+=======
+header, #footer {
+>>>>>>> main
     background-color: purple;
 }
-.header-text {
+.header-text,#footer {
     color: white;
+<<<<<<< HEAD
 }
 =======
 header, #footer {
@@ -11,6 +16,8 @@ header, #footer {
 }
 .header-text,#footer {
     color: white;
+=======
+>>>>>>> main
     text-align: center;
 }
 .article-title {
@@ -22,4 +29,7 @@ header, #footer {
 .article-author, .article-author {
     color: grey;
 }
+<<<<<<< HEAD
 >>>>>>> 1816585 (initial commit)
+=======
+>>>>>>> main
