@@ -1,0 +1,63 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #333;
+}
+.title {
+    font-family: "Helvetica Neue";
+    font-size:1.5rem;
+}
+
+.close-button {
+    border: none;
+    background-color: inherit;
+    font-weight: bold;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+.close-button:hover{
+    background-color: rgb(134, 97, 97);
+}
+
+.body {
+    flex-grow: 1;
+    padding: 10px;
+    height: 50vh;
+    overflow: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #333;
+}
+
+.btn {
+    border: 1px solid #333;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 1.5rem;
+}
+
+.btn-primary {
+    width: 60px;
+    background-color: rgb(71, 122, 124);
+}
+.btn-primary:hover {
+    background-color: rgb(110, 212, 216);
+}
+.btn-danger{
+    width: 70px;
+    background-color: rgb(183, 85, 85);
+}
+.btn-danger:hover {
+    background-color: rgb(237, 167, 167);
+}

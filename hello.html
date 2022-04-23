@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ARIA test page</title>
+</head>
+
+<body>
+  <main>
+    <h1>title for main content<h1>
+        <button type="button" name="button">Click Me</button>
+  </main>
+
+
+  <div class="item-start panel panel-primary b wide" rect="rect" ng-if="::c.data.items.length" ng-class="::c.data.type" style="">
+    <div class="panel-heading">
+      <h2 class="h4 panel-title ng-binding">
+        <!-- ngIf: options.glyph.length -->submit-report
+      </h2>
+    </div>
+    <div class="panel-body transclude">
+      <!-- Main carousel div-->
+      <div id="9140eb71c7d23010eadc357098c26071" class="carousel slide ng-scope" data-ride="carousel" aria-live="polite">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" ng-class="{'overflow-visible': c.getNumOpenPopovers() > 0}" role="tablist">
+          <!-- ngRepeat: item in ::c.data.items track by $index -->
+          <div ng-repeat="item in ::c.data.items track by $index"
+            ng-class="['item vertical-center', {'no-control': !c.showControl}, {'active': $first}, {'preview-outline preview-info-container-parent': item.is_preview &amp;&amp; item.is_content_active == 1},  {'preview-outline-inactive preview-info-container-parent': item.is_preview &amp;&amp; item.is_content_active == 0}]"
+            ng-swipe-right="c.swipeRight()" ng-swipe-left="c.swipeLeft()" data-idx="0" id="tabpanel_9140eb71c7d23010eadc357098c26071_0" aria-labelledby="" class="ng-scope item vertical-center no-control active" role="tab">
+
+
+            <portal-content-preview-info-tab is-compact="false" item="item" data="c.data" index="$index" class="ng-isolate-scope">
+              <!-- ngIf: item.is_preview -->
+            </portal-content-preview-info-tab>
+            <!-- ngIf: ::item.type==c.data.BLOCK -->
+            <!-- ngIf: ::item.type==c.data.BANNER -->
+            <div ng-if="::item.type==c.data.BANNER" class="c-content-banner ng-scope">
+              <div ng-style="::item.background" class="expand" style="background-color: rgb(241, 241, 241);">
+                <div ng-class="{'gradient-dark' : item.add_gradient}"></div>
+              </div>
+              <div ng-class="[{'extra-bottom-pad' : item.action == c.data.LINK}]" class="banner-content">
+                <div ng-class="::item.textAlignment" class="outer-container text-alignment-center">
+                  <div ng-class="::item.textClasses" class="container inner-container text-alignment-center text-color-dark expand">
+                    <div class="banner-info" ng-style="c.getDynamicBannerTextHeight()" style="min-height: 150px;">
+                      <h1 ng-bind="::item.heading_text" aria-label="Heading text" class="ng-binding">Ready to submit your report?</h1>
+                      <p class="m-b-lg ng-binding" ng-bind="::item.body_text" aria-label="Body text" role="definition"></p>
+                    </div>
+                    <!-- ngIf: ::item.action==c.data.BUTTON --><a ng-if="::item.action==c.data.BUTTON" any-click="c.onButtonClick(item)" data-toggle="" title="" ng-href="/arc?id=arc_category" target="_blank"
+                      class="widget-button btn btn-primary btn-lg ng-binding ng-scope" ng-bind="::item.button_text" aria-label="Submit a report" href="/arc?id=arc_category">Submit a report</a><!-- end ngIf: ::item.action==c.data.BUTTON -->
+                    <!-- ngIf: ::item.action==c.data.LINK -->
+                  </div>
+                </div>
+              </div>
+            </div><!-- end ngIf: ::item.type==c.data.BANNER -->
+            <!-- ngIf: ::item.type==c.data.VIDEO -->
+          </div><!-- end ngRepeat: item in ::c.data.items track by $index -->
+        </div>
+        <div ng-class="{'banner-indicators' : c.data.type, 'block-indicators' : !c.data.type}" class="banner-indicators">
+          <!-- ngIf: ::c.data.items.length > 1 -->
+          <!-- ngIf: ::c.data.items.length > 1 -->
+          <!-- ngIf: ::c.data.items.length > 1 -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
