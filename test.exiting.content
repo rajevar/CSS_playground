@@ -1,0 +1,84 @@
+{
+    "content":{
+       "user_reference_table":"sys_user",
+       "body_text":"This is the body text. Just adding some text to see how it will look in the UI..",
+       "call_to_action":"",
+       "add_icon":"false",
+       "add_background_image":"false",
+       "icon":"",
+       "text_over_background":"false",
+       "title":"Test",
+       "type":"banner",
+       "sys_id":"a9982613776a4110a10440483f5a99f2",
+       "content_type":{
+          "name":"content_type",
+          "displayValue":"Styled Content",
+          "value":"41040dd7237e2300fb0c949e27bf652a"
+       },
+       "icon_size":"",
+       "add_gradient":"false",
+       "order":"100",
+       "image":"",
+       "active":"true",
+       "text_alignment":"center",
+       "user_column":"",
+       "video_link":{
+          "name":"video_link",
+          "displayValue":"",
+          "value":""
+       },
+       "background_color":"lightblue",
+       "background_size":"",
+       "url_asset":{
+          "name":"url_asset",
+          "displayValue":"",
+          "value":""
+       },
+       "background_position":"",
+       "button_text":"",
+       "heading_text":"Heading Text _",
+       "text_color":"light",
+       "link_text":""
+    },
+    "newContent":false,
+    "tabs":{
+       "DESIGN":"design",
+       "PUBLISH":"publish"
+    },
+    "table":"sn_cd_content_portal",
+    "i18n":{
+       
+    },
+    "imageData":{
+       "id":"",
+       "imageMimeType":"",
+       "tableSysId":"",
+       "tableName":""
+    },
+    "attachmentService":{
+       
+    },
+    "contentDataService":{
+       
+    },
+    "scheduleDataService":{
+       
+    },
+    "streamlineContentAuthoringService":{
+       
+    },
+    "activeTab":"design",
+    "schedules":[
+       
+    ],
+    "currentSchedule":null,
+    "savedDesignMessage":"All design changes to your content were saved to your content library",
+    "discardMsg":"Do you want to save changes before leaving this page?",
+    "discardSavedMsg":"Do you want to save changes to your {0} before leaving this page?",
+    "unloadMsg":"Changes have been made. Continuing will discard the changes.",
+    "deleteMsg":"By confirming below, you will remove this content record and its Publish settings from the system.",
+    "saveDesignErrorMessage":"Cannot proceed because the Design form contains errors.",
+    "cannotDeleteMessage":"Cannot delete content because it is part of a Campaign.",
+    "savedPublishMessage":"Schedule saved",
+    "loadComplete":true
+ }

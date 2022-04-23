@@ -1,0 +1,57 @@
+{
+    "content":{
+       "title":"Product Documentation",
+       "sys_id":"c39729950b8013008cd6e7ae37673a82",
+       "content_type":{
+          "name":"content_type",
+          "displayValue":"URL",
+          "value":"afb39d7a0b4303008cd6e7ae37673a16"
+       },
+       "order":"100",
+       "active":"true",
+       "url_asset":{
+          "name":"url_asset",
+          "displayValue":"Product Documentation",
+          "value":"32d769950b8013008cd6e7ae37673ac6"
+       }
+    },
+    "newContent":false,
+    "tabs":{
+       "DESIGN":"design",
+       "PUBLISH":"publish"
+    },
+    "table":"sn_cd_content_portal",
+    "i18n":{
+       
+    },
+    "imageData":{
+       "id":"",
+       "imageMimeType":"",
+       "tableSysId":"",
+       "tableName":""
+    },
+    "attachmentService":{
+       
+    },
+    "contentDataService":{
+       
+    },
+    "scheduleDataService":{
+       
+    },
+    "streamlineContentAuthoringService":{
+       
+    },
+    "activeTab":"design",
+    "schedules":[
+       
+    ],
+    "currentSchedule":null,
+    "savedDesignMessage":"All design changes to your content were saved to your content library",
+    "discardMsg":"Do you want to save changes before leaving this page?",
+    "discardSavedMsg":"Do you want to save changes to your {0} before leaving this page?",
+    "unloadMsg":"Changes have been made. Continuing will discard the changes.",
+    "deleteMsg":"By confirming below, you will remove this content record and its Publish settings from the system.",
+    "saveDesignErrorMessage":"Cannot proceed because the Design form contains errors.",
+    "cannotDeleteMessage":"Cannot delete content because it is part of a Campaign."
+ }

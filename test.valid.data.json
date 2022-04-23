@@ -1,0 +1,134 @@
+{
+    "content":{
+       "title":"Product Documentation",
+       "sys_id":"c39729950b8013008cd6e7ae37673a82",
+       "content_type":{
+          "name":"content_type",
+          "displayValue":"URL",
+          "value":"afb39d7a0b4303008cd6e7ae37673a16"
+       },
+       "order":"100",
+       "active":"true",
+       "url_asset":{
+          "name":"url_asset",
+          "displayValue":"Product Documentation",
+          "value":"32d769950b8013008cd6e7ae37673ac6"
+       },
+       "temporary_sys_Id":"c39729950b8013008cd6e7ae37673a82"
+    },
+    "newContent":false,
+    "tabs":{
+       "DESIGN":"design",
+       "PUBLISH":"publish"
+    },
+    "table":"sn_cd_content_portal",
+    "i18n":{
+       
+    },
+    "imageData":{
+       "id":"",
+       "imageMimeType":"",
+       "tableSysId":"",
+       "tableName":""
+    },
+    "attachmentService":{
+       
+    },
+    "contentDataService":{
+       
+    },
+    "scheduleDataService":{
+       
+    },
+    "streamlineContentAuthoringService":{
+       
+    },
+    "activeTab":"design",
+    "schedules":[
+       {
+          "sp_page":{
+             "name":"sp_page",
+             "displayValue":"esc_dashboard",
+             "value":"40e9a568731313004a1f3ae234f6a774"
+          },
+          "taxonomy":{
+             "name":"taxonomy",
+             "displayValue":"",
+             "value":""
+          },
+          "title":"Product Documentation Madrid",
+          "content":{
+             "name":"content",
+             "displayValue":"Product Documentation",
+             "value":"c39729950b8013008cd6e7ae37673a82"
+          },
+          "sys_id":"1c7f3520735313004a1f3ae234f6a7bb",
+          "audience":{
+             "name":"audience",
+             "displayValue":"Active Users",
+             "value":"1c3b77983bf01300d901655593efc4ca"
+          },
+          "active":"true",
+          "sp_instance":{
+             "name":"sp_instance",
+             "displayValue":"Information",
+             "value":"d0e9e568731313004a1f3ae234f6a76e"
+          },
+          "content_location":"",
+          "availability_start_date":"",
+          "topic":{
+             "name":"topic",
+             "displayValue":"",
+             "value":""
+          },
+          "availability_end_date":""
+       },
+       {
+          "sp_page":{
+             "name":"sp_page",
+             "displayValue":"",
+             "value":"be7138430b7303008cd6e7ae37673a7b"
+          },
+          "taxonomy":{
+             "name":"taxonomy",
+             "displayValue":"",
+             "value":""
+          },
+          "title":"Product Documentation",
+          "content":{
+             "name":"content",
+             "displayValue":"Product Documentation",
+             "value":"c39729950b8013008cd6e7ae37673a82"
+          },
+          "sys_id":"75a625950b8013008cd6e7ae37673a0a",
+          "audience":{
+             "name":"audience",
+             "displayValue":"Active Users",
+             "value":"1c3b77983bf01300d901655593efc4ca"
+          },
+          "active":"true",
+          "sp_instance":{
+             "name":"sp_instance",
+             "displayValue":"",
+             "value":"69ec868c0b0013008cd6e7ae37673a8a"
+          },
+          "content_location":"",
+          "availability_start_date":"",
+          "topic":{
+             "name":"topic",
+             "displayValue":"",
+             "value":""
+          },
+          "availability_end_date":""
+       }
+    ],
+    "currentSchedule":null,
+    "savedDesignMessage":"All design changes to your content were saved to your content library",
+    "discardMsg":"Do you want to save changes before leaving this page?",
+    "discardSavedMsg":"Do you want to save changes to your {0} before leaving this page?",
+    "unloadMsg":"Changes have been made. Continuing will discard the changes.",
+    "deleteMsg":"By confirming below, you will remove this content record and its Publish settings from the system.",
+    "saveDesignErrorMessage":"Cannot proceed because the Design form contains errors.",
+    "cannotDeleteMessage":"Cannot delete content because it is part of a Campaign.",
+    "savedPublishMessage":"Schedule saved"
+ }
